@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+    box-sizing:border-box; 
+}
+
+body {
+    font-family:'Roboto', Arial, Verdana, sans-serif;
+}
+
+.container {
+    color: #4f4e4a;
+}
+
+.text-center {
+    margin-top: 10px;
+}
+
+.js-winner-is {
+    text-align: center;
+    margin: 30px;
+    font-size: 24px;
+}
+
+@media (min-width: 768px) {
+
+    button {
+        padding: 10px; 
+    }
+
+    .container {
+        padding-top: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .container {
+        padding-top: 55px;
+    }
+
+    button {
+        display: block;
+        width: 50%;
+        text-align: center;
+        padding-top: 50px; 
+        margin: 30px;
+    }
+
+    h3 {
+        display: block;
+        width: 50%;
+        text-align: center;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+
+    .label {
+        text-align: center;
+        margin: 50px;
+    }
+    
+}
